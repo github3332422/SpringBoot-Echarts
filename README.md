@@ -16,7 +16,9 @@
 * 从 GitHub 上获取代码
 
   ```
+  
   git clone https://github.com/github3332422/SpringBoot-Echarts.git
+  
   ```
 
 * s还有 Navicat 运行 SQL 文件
@@ -28,10 +30,12 @@
 * 访问项目
 
   ```
+  
   柱状图: http://127.0.0.1:8080/vis/bar
-  饼图:   http://127.0.0.1:8080/vis/pie
-折线图: http://127.0.0.1:8080/vis/line
+饼图:   http://127.0.0.1:8080/vis/pie
+  折线图: http://127.0.0.1:8080/vis/line
   雷达图: http://127.0.0.1:8080/vis/circle
+  
   ```
   
 
