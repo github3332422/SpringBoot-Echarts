@@ -22,14 +22,6 @@ public class IndexController {
     @Autowired
     private IndexService indexService;
     /**
-     * 默认是柱状图
-     * */
-    @RequestMapping(value = "", method = RequestMethod.GET)
-    public String index() {
-        return "index";
-    }
-
-    /**
      * 柱状图
      * */
     @RequestMapping(value = "/bar", method = RequestMethod.GET)
@@ -60,10 +52,6 @@ public class IndexController {
     public String circle(){
         return "circle";
     }
-
-
-
-
 
     @RequestMapping(value = "list", method = RequestMethod.GET)
     @ResponseBody
